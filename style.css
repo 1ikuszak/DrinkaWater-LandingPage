@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,300;1,500&display=swap'); 
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* nav bar */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 16px 20px;
+
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-links{
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 92vh;
+}
+
+/* hero section */
+.hero-section{
+    width: 740px;
+    height: 240px;
+    background-color: #1F2937;
+    border-radius: 10px;
+    color: white;
+    padding: 80px;
+}
+
+
+.hero-section img{
+    position: absolute;
+    top:0;
+    left: 0;
+    z-index: -1;
+    filter: brightness(70%);
+    width: 100%;
+    height: auto;
+
+}
+
+.headline-text{
+    font-size: 42px;
+    font-weight: 900;
+}
+
+.sub-headline-text{
+    width: 440px;
+    margin-top: 18px;
+    font-size: 18px;
+}
+
+.btn-section{
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.btn-section button{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #00A6FB; /* Green background */
+    border: none; /* Remove border */
+    color: white; /* White text */
+    padding: 12px 24px; /* Some padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Make the button inline */
+    font-size: 16px; /* Set font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Add a pointer cursor on hover */
+    border-radius: 10px;
+  }
+
+
+/* article-section */
+
+article{
+    background-color: white;
+    padding: 100px;
+}
+
+.article-text{
+    font-size: 34px;
+    font-weight: bold;
+    color: #1F2937;
+    text-align: center;
+}
+
+.card-container{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+}
+
+.card .box{
+    width: 200px;
+    height: 200px;
+    border: #0582CA 2px solid;
+    border-radius: 10px;
+}
+
+.card .description {
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+    font-size: 18px;
+}
+
+
+/* quote-section */
+
+.quote-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px;
+    height: 200px;
+    background-color: #E5E7EB;
+}
+
+.quote-section .content{
+    width: 800px;
+}
+
+
+.quote-text{
+    font-size: 32px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.author{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    float: right;
+}
+
+
+/* cta-section */
+
+.cta-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.cta-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-section .box{
+    width: 780px;
+    height: 60px;
+    background-color: #3B82F6;
+    border-radius: 6px;
+    padding: 40px 60px;
+    color: white;
+}
+
+.cta-headline{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-text{
+    font: 18px;
+}
+
+.cta-content button{
+    padding: 8px 30px;
+    border-radius: 10px;
+    border: 2px white solid; 
+    background-color: transparent;
+    color: white;
+    text-align: center; 
+    text-decoration: none; 
+    display: inline-block; 
+    font-size: 18px;
+    font-weight: bold; 
+    margin: 4px 2px; 
+    cursor: pointer; 
+    border-radius: 10px;
+}
+
+
+/* footer */
+
+footer{
+    padding: 20px;
+    text-align: center;
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+}
